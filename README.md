@@ -14,6 +14,8 @@ The used images are defined in the file docker_images/docker-compose-zookeper-ka
 
 ## Steps to have everything running
 
+0) Clone the repo and create an empty folder called data inside the folder docker_images.
+
 1) Run the start_script.sh (execute ```bash start_script.sh```). This will deploy services defined in the file docker_images/docker-compose-zookeper-kafka-postgres.yml. Besides, it will activate the poetry venv. Once this is done, go back to the previous folder level (execute ```cd ..```).
 
 2) Run the following SQL commands on the SQL database:
